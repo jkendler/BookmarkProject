@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{D5878D98-17D4-406E-A7A1-C1978D10079D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookmarkOwl.Core/Services/RestRepository.cs">
+    <Files>
+      <File FileName="BookmarkOwl.Core/Models/BookmarksResponse.cs" />
+      <File FileName="BookmarkOwl/MauiProgram.cs" Line="45" Column="3" />
+      <File FileName="BookmarkOwl.Core/Services/RestRepository.cs" Line="43" Column="14" />
+      <File FileName="BookmarkOwl/Pages/SettingsPage.xaml" />
+      <File FileName="BookmarkOwl/AppShell.xaml" />
+      <File FileName="BookmarkOwl.Core/ViewModels/SettingsViewModel.cs" />
+      <File FileName="BookmarkOwl/Pages/SettingsPage.xaml.cs" />
+      <File FileName="BookmarkOwl.Core/Interfaces/IPreferencesService.cs" />
+      <File FileName="BookmarkOwl/Services/PreferencesService.cs" />
+      <File FileName="BookmarkOwl.Core/Interfaces/IRestEndpoint.cs" Line="7" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookmarkOwl" expanded="True">
+            <Node name="BookmarkOwl" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="SettingsPage.xaml" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="BookmarkOwl.Core" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="RestRepository.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="BookmarkOwl.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BookmarkOwl PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

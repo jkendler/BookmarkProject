@@ -1,0 +1,8 @@
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/actool/_PartialAppManifest.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/coremlc/_PartialAppManifest.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0-maccatalyst/_ProcessedContentPath.items

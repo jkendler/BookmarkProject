@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Tests/BookmarkOwl.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/BookmarkOwl.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/BookmarkOwl.Core.csproj",
+        "projectName": "BookmarkOwl.Core",
+        "projectPath": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/BookmarkOwl.Core.csproj",
+        "packagesPath": "/Users/juliakendler/.nuget/packages/",
+        "outputPath": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juliakendler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Tests/BookmarkOwl.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Tests/BookmarkOwl.Tests.csproj",
+        "projectName": "BookmarkOwl.Tests",
+        "projectPath": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Tests/BookmarkOwl.Tests.csproj",
+        "packagesPath": "/Users/juliakendler/.nuget/packages/",
+        "outputPath": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juliakendler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/BookmarkOwl.Core.csproj": {
+                "projectPath": "/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/BookmarkOwl.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

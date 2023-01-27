@@ -1,0 +1,12 @@
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/bin/Debug/net6.0/BookmarkOwl.Core.deps.json
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/bin/Debug/net6.0/BookmarkOwl.Core.dll
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/bin/Debug/net6.0/BookmarkOwl.Core.pdb
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.csproj.AssemblyReference.cache
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.AssemblyInfoInputs.cache
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.AssemblyInfo.cs
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.csproj.CoreCompileInputs.cache
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.dll
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/refint/BookmarkOwl.Core.dll
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/BookmarkOwl.Core.pdb
+/Users/juliakendler/Documents/Schule_/SWPP/5Klasse/bookmarkssql/bookmarkowl-sqlite-jkendler/BookmarkOwl.Core/obj/Debug/net6.0/ref/BookmarkOwl.Core.dll

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:BookmarkOwl.Core.ViewModels;assembly=BookmarkOwl.Core"
+             x:DataType="viewmodel:LinkListViewModel"
+             xmlns:model="clr-namespace:BookmarkOwl.Core.Models;assembly=BookmarkOwl.Core"
+             xmlns:converters="clr-namespace:CommunityToolkit.Maui.Converters;assembly=CommunityToolkit.Maui"
+             xmlns:behaviors="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="BookmarkOwl.MainPage">
+
+    <ContentPage.Behaviors>
+        <behaviors:EventToCommandBehavior 
+            EventName="Appearing" Command="{Binding LoadDataCommand}" />
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="Auto,Auto,*" Margin="10" RowSpacing="10">
+        <!-- row 0 -->
+        <Label Text="{Binding Title}" HorizontalTextAlignment="Center" 
+               FontSize="35" TextColor="DarkOrange" />
+        
+        <!-- row 1 -->
+        <StackLayout Grid.Row="1">
+            <Label Text="Title" FontSize="20" TextColor="MediumPurple" />
+            <Entry Text="{Binding LinkTitle}" Margin="0,0,0,5" />
+
+            <Label Text="Destination" FontSize="20" TextColor="MediumPurple" />
+            <Entry Text="{Binding LinkDestination}" Margin="0,0,0,5" />
+
+            <Button Text="OK" Command="{Binding CreateCommand}" />
+        </StackLayout>
+        
+        <!-- row 2 -->
+        <CollectionView Grid.Row="2" ItemsSource="{Binding Entries}">
+            <CollectionView.EmptyView>
+                <Label Margin="10" Padding="10" Text="Es sind keine Einträge vorhanden." />
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:LinkEntry">
+                    <Grid ColumnDefinitions="Auto,Auto,*,Auto" RowDefinitions="Auto">
+                        
+                        <Image Source="feathericons/star.png" IsVisible="{ Binding Favorite }">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{
+                                    Binding 
+                                        Source={
+                                                RelativeSource AncestorType={
+                                                    x:Type viewmodel:LinkListViewModel
+                                                }
+                                        },
+                                        Path=ToggleFavoriteCommand
+                                    }" CommandParameter="{Binding .}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Image Source="feathericons/staroff.png" 
+                               IsVisible="{ Binding Favorite,
+                                        Converter={
+                                            converters:InvertedBoolConverter
+                                        }
+                                    }">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{
+                                    Binding 
+                                        Source={
+                                                RelativeSource AncestorType={
+                                                    x:Type viewmodel:LinkListViewModel
+                                                }
+                                        },
+                                        Path=ToggleFavoriteCommand
+                                    }" CommandParameter="{Binding .}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Label Margin="10"  Text="{Binding Title}" Grid.Column="1" />
+
+                        <Label Margin="10"  Text="{Binding Destination}" Grid.Column="2">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{
+                                    Binding 
+                                        Source={
+                                                RelativeSource AncestorType={
+                                                    x:Type viewmodel:LinkListViewModel
+                                                }
+                                        },
+                                        Path=OpenLinkCommand
+                                    }" CommandParameter="{Binding .}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Button Grid.Column="3" Text="Remove" 
+                                Command="{Binding Source={
+                                    RelativeSource AncestorType={
+                                        x:Type viewmodel:LinkListViewModel
+                                    }
+                            }, Path=RemoveLinkCommand}" 
+                            CommandParameter="{Binding .}"
+                                />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        
+    </Grid>
+ 
+</ContentPage>
